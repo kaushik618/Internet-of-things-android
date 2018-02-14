@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">mssproj</string>
+    <string name="objects">objects</string>
+    <string name="maindoor">Maindoor</string>
+    <string name="doorA">doorA</string>
+    <string name="doorB">doorB</string>
+    <string name="doorC">doorC</string>
+    <string name="doorD">doorD</string>
+</resources>

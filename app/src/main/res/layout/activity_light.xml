@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorlightred"
+    tools:context="com.example.admin.mssproj.Light"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/blight1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:onClick="onOnClick"
+        android:text="Turn ON"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/blight2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:onClick="onOffClick"
+        android:text="Turn Off"
+        tools:ignore="MissingConstraints,OnClick" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seekBar"
+        android:text="Dimming Control"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar"
+         />
+
+    <Button
+        android:id="@+id/bback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="290dp"
+        android:text="Back"
+        android:onClick="onBackClick"
+        tools:ignore="OnClick"
+        />
+
+
+
+</LinearLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorlightred"
+    tools:context="com.example.admin.mssproj.Vendingmachine"
+    android:orientation="vertical">
+
+
+
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Items Available"
+            android:gravity="center"
+            android:layout_marginLeft="40dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KitKat" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Black Coffee" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choco Mocha" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coke" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lays" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cheetos" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Snickers" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Orbit" />
+
+
+    <Button
+        android:id="@+id/bpay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pay with Android pay"
+        android:onClick="onPayClick"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/bback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="290dp"
+        android:text="Back"
+        android:onClick="onBackClick"
+        tools:ignore="OnClick"
+        />
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

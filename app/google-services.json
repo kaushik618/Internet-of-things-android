@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "787069981877",
+    "firebase_url": "https://mssproject-f5246.firebaseio.com",
+    "project_id": "mssproject-f5246",
+    "storage_bucket": "mssproject-f5246.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787069981877:android:fbd52d1124dc786b",
+        "android_client_info": {
+          "package_name": "com.example.admin.mssproj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787069981877-ej5jo464l1f8v3skonhn716l2ddmuhdk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArYG-5Wxfve84KO36GUSavPXWrfmLJWYY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

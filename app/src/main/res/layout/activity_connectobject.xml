@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/colorlightred"
+    android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/blight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onObjectClick"
+            android:text="Lighting Control"
+            tools:ignore="OnClick"/>
+        <Button
+            android:id="@+id/bdoor1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onDooorClick"
+            android:text="Main Door 1"
+            tools:ignore="OnClick"/>
+
+
+        <Button
+            android:id="@+id/bdoor2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onDoooorClick"
+            android:text="Main Door 2"
+            tools:ignore="OnClick"/>
+
+        <Button
+            android:id="@+id/bAC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onAcClick"
+            android:text="Air Conditioning Unit"
+            tools:ignore="OnClick"/>
+
+
+        <Button
+            android:id="@+id/bprinter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onPrintClick"
+            android:text="Xerox Machine"
+            tools:ignore="OnClick"/>
+
+        <Button
+            android:id="@+id/bprojec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onProClick"
+            android:text="Projector"
+            tools:ignore="OnClick"/>
+
+        <Button
+            android:id="@+id/bsystem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onSysClick"
+            android:text="System Control"
+            tools:ignore="OnClick"/>
+
+        <Button
+            android:id="@+id/bfood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onFoodClick"
+            android:text="Vending Machine"
+            tools:ignore="OnClick"/>
+
+
+
+
+</LinearLayout>
